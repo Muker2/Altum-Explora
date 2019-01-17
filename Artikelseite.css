@@ -1,0 +1,26 @@
+.Artikel{
+	position: relative;
+	width: 66.66%;
+	height: 100%;
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	animation-name: fadein;
+	animation-duration: 2s;
+}
+
+.Beschreibung {
+	display: inline-block;
+	position: absolute;
+	float: left;
+	height: 75%;
+	width: 40%;
+	text-align: center;
+	background-color: orange;
+}
+	
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
