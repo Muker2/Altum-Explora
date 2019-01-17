@@ -17,10 +17,52 @@
 	width: 40%;
 	text-align: center;
 	background-color: orange;
+	border-radius: 5px;
 }
 	
 
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
+}
+
+#shopping{
+	position: relative;
+	float: left;
+	height: 10%;
+	width: 100%;
+	top: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.selection{
+	position: absolute;
+	width: 100%;
+	left: 72.5%;
+	bottom: 300px;
+}
+
+.selection select{
+	background-color: blue;
+	color: white;
+	padding: 10px;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	appearance: none;
+	border: none;
+	border-radius: 5px;
+	width: 8%;
+}
+
+select:after{
+	background-color:white;
+}
+
+.Quantity{
+	background-color: blue;
+}
+
+.Size{
+	background-color: blue;
 }
