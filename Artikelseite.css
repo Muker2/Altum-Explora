@@ -13,10 +13,11 @@
 	display: inline-block;
 	position: absolute;
 	float: left;
-	height: 75%;
+	height: 90%;
 	width: 40%;
 	text-align: center;
-	background-color: orange;
+	background-color: #00524f;
+	color: white;
 	border-radius: 5px;
 }
 	
@@ -30,21 +31,25 @@
 	position: relative;
 	float: left;
 	height: 10%;
-	width: 100%;
+	width: 75%;
 	top: 70%;
-	margin-left: auto;
+	margin-left: 12.5%;
 	margin-right: auto;
+	border: none;
+	border-radius: 5px;
+	background-color: orange;
+	color: white;
 }
 
 .selection{
 	position: absolute;
-	width: 100%;
-	left: 72.5%;
-	bottom: 300px;
+	width: 70%;
+	left: 55%;
+	bottom: 30%;
 }
 
 .selection select{
-	background-color: blue;
+	background-color: orange;
 	color: white;
 	padding: 10px;
 	-moz-appearance: none;
@@ -54,6 +59,11 @@
 	border-radius: 5px;
 	width: 8%;
 }
+
+select optgroup{
+	background: orange;
+}
+
 
 select:after{
 	background-color:white;
@@ -65,4 +75,10 @@ select:after{
 
 .Size{
 	background-color: blue;
+}
+
+p{
+	position: relative;
+	top: 50%;
+	right: 30%;
 }
