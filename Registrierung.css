@@ -8,11 +8,12 @@ form{
 	width: 25%;
 	height: 500px;
 	background-color: rgba(0, 0, 0, 0.7);
+	top: 250px;
 	text-align: center;
 	margin-left: 37.5%;
 	margin-right: 37.5%;
 	border-radius: 5px;
-	z-index: 1;
+	z-index: 2;
 }
 
 #submit{
@@ -24,15 +25,15 @@ form{
 	border-radius: 10px;
 }
 
-#titelbild{
-	position: absolute;
-	float: left;
-	margin-top: 5%;
+#Registrierbild {
+	position: relative;
+	z-index: 2;
 	width: 100%;
-	text-align: center;
-	height: 500px;
-	filter: blur(5px);
-	z-index: -1;
+    height: 700px;
+    background-image: url("Bilder/Swipe1.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
 }
 
 input[type=text] {
