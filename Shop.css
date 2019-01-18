@@ -34,8 +34,13 @@
 	float: left;
 	text-align: center;
 	width: 33.33%;
-	height: 600px;
-	margin-top:0px;
+	height: 30%;
+	margin-top:5%;
+	opacity: 0.5;
+}
+
+.wetsuit:hover{
+	opacity: 1;
 }
 
 
