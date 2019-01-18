@@ -13,7 +13,7 @@
 	display: inline-block;
 	position: absolute;
 	float: left;
-	height: 90%;
+	height: 100%;
 	width: 40%;
 	text-align: center;
 	background-color: #00524f;
@@ -37,7 +37,7 @@
 	margin-right: auto;
 	border: none;
 	border-radius: 5px;
-	background-color: orange;
+	background-color: #eb5c00;
 	color: white;
 }
 
@@ -45,11 +45,11 @@
 	position: absolute;
 	width: 70%;
 	left: 55%;
-	bottom: 30%;
+	bottom: 20%;
 }
 
 .selection select{
-	background-color: orange;
+	background-color: #eb5c00;
 	color: white;
 	padding: 10px;
 	-moz-appearance: none;
@@ -61,7 +61,7 @@
 }
 
 select optgroup{
-	background: orange;
+	background: #eb5c00;
 }
 
 
@@ -69,13 +69,6 @@ select:after{
 	background-color:white;
 }
 
-.Quantity{
-	background-color: blue;
-}
-
-.Size{
-	background-color: blue;
-}
 
 p{
 	position: relative;

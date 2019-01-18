@@ -1,4 +1,4 @@
-.Kategorienbild{
+.Kategorie{
 	position: relative;
 	width: 75%;
 	height: 25%;
@@ -8,22 +8,27 @@
 	margin-bottom: 0px;
 }
 
-.Kategorie{
+#Kategorienbild {
 	position: relative;
-	width: 980px;
-	font-size: 50px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 0px;
+	z-index: 4;
+	width: 100%;
+    height: 700px;
+    background-image: url("Bilder/Kategorie.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
 	filter: blur(5px);
-
 }
 
-.wrapper{
-	position: relative;
-	width: 75%;
-	height: 100%;
-	margin-top: 10px;
+
+.Products{
+	position: absolute;
+	width: 980px;
+	margin-left: 261.6px;
+	margin-right: 261.6px;
+	margin-top: 50%;
+	border: none;
+	z-index: 7;
 }
 
 .wetsuit{
@@ -31,38 +36,45 @@
 	float: left;
 	text-align: center;
 	width: 33.33%;
+	height: 600px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 50px;
-	opacity: 0.5;
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
 
-.wetsuit:hover{
-	opacity: 1;
-}
 
 .Name{
-	position: absolute;
+	position: relative;
 	bottom: 0px;
 	height: 50px;
+	margin:0;
+	background-color: #eb5c00;
+	border: 2px solid white;
 	text-align: center;
 	width: 100%;
 	color: white;
-	background-color: orange;
 	font-family: Century Gothic;
 }
 
-p{
-	position: relative;
-	color: white;
-	font-size: 50px;
-	padding: none;
+.MEN{
+	position: absolute;
+	margin: auto;
+	height: 150px;
+	width: 300px;
+	left: 601px;
+	top: 300px;
 	text-align: center;
-	top: -350px;
+	z-index: 8;
+	}
+	
+p{
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 100px;
+	color: white;
 	font-family: Century Gothic;
-	font-weight: 900;
 }
-
 
 
 
