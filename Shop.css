@@ -5,24 +5,25 @@
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 10px;
+	margin-bottom: 0px;
 }
 
 .Kategorie{
 	position: relative;
+	width: 980px;
 	font-size: 50px;
-	color: white;
-	text-align: center;
-	font-family: Century Gothic;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0px;
+	filter: blur(5px);
 
 }
 
 .wrapper{
 	position: relative;
-	float: left;
-	width: 100%;
+	width: 75%;
 	height: 100%;
-	margin-top: 5%;
-	background-image: url(Bilder/Shopbackground.jpg);
+	margin-top: 10px;
 }
 
 .wetsuit{
@@ -32,6 +33,7 @@
 	width: 33.33%;
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: 50px;
 	opacity: 0.5;
 }
 
@@ -50,6 +52,16 @@
 	font-family: Century Gothic;
 }
 
+p{
+	position: relative;
+	color: white;
+	font-size: 50px;
+	padding: none;
+	text-align: center;
+	top: -350px;
+	font-family: Century Gothic;
+	font-weight: 900;
+}
 
 
 
