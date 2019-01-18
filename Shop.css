@@ -67,6 +67,17 @@
 	z-index: 7;
 	}
 	
+.WOMEN{
+	position: absolute;
+	margin: auto;
+	height: 150px;
+	width: 300px;
+	left: 601px;
+	top: 300px;
+	text-align: center;
+	z-index: 7;
+}
+	
 p{
 	margin-left: auto;
 	margin-right: auto;
