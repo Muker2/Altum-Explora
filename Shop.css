@@ -116,6 +116,13 @@ p{
 	font-family: Century Gothic;
 }
 
+.Kategorienauswahl{
+	filter: blur(5px);
+}
+
+.Kategorienauswahl:hover{
+	filter: blur(0px);
+}
 
 
 

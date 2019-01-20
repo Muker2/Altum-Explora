@@ -16,7 +16,7 @@
 	height: 100%;
 	width: 40%;
 	text-align: center;
-	background-color: #00524f;
+	background-color: black;
 	color: white;
 	border-radius: 5px;
 }
@@ -37,7 +37,7 @@
 	margin-right: auto;
 	border: none;
 	border-radius: 5px;
-	background-color: #eb5c00;
+	background-color: rgb(33,139,125);
 	color: white;
 }
 
@@ -49,7 +49,7 @@
 }
 
 .selection select{
-	background-color: #eb5c00;
+	background-color: rgb(33,139,125);
 	color: white;
 	padding: 10px;
 	-moz-appearance: none;
@@ -59,11 +59,6 @@
 	border-radius: 5px;
 	width: 8%;
 }
-
-select optgroup{
-	background: #eb5c00;
-}
-
 
 select:after{
 	background-color:white;

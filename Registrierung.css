@@ -68,6 +68,17 @@ input[type=password]{
 	border: none;
 }
 
+input[type=email]{
+	font-family: Century Gothic;
+	width: 25%;
+	margin: 10px;
+	padding: 5px;
+	background-color: gray;
+	border-radius: 5px;
+	color: white;
+	border: none;
+}
+
 #password{
 	margin-top: 10px;
 	border: none;
