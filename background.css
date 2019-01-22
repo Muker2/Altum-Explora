@@ -388,15 +388,15 @@ footer{
 	position: static;
 	height: 100px;
 	line-height: 100px;
-	bottom: 0px;
 	margin-top: 5%;
 	background-color: black;
 	text-align: center;
-	vertical-align: middle;
+	bottom: 0px;
 }
 
 #footertext{
 	position: relative;
+	font-size: 20px;
 	color: white;
 	font-family: Century Gothic;
 }
