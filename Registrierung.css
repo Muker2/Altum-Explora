@@ -29,6 +29,7 @@ form{
 	border-radius: 10px;
 }
 
+
 #Registrierbild {
 	position: relative;
 	z-index: 2;
@@ -43,8 +44,7 @@ form{
 input[type=text] {
 	font-family: Century Gothic;
 	width: 100px;
-	margin: 10px;
-	margin-left: 20px;
+	margin: auto;
 	padding: 5px;
 	margin-top: 20px;
 	background-color: gray;
@@ -55,6 +55,8 @@ input[type=text] {
 
 input[type=checkbox]{
 	margin-top: 20px;
+	font-family: Century Gothic;
+	border-radius: 50px;
 }
 
 input[type=password]{
@@ -68,20 +70,12 @@ input[type=password]{
 	border: none;
 }
 
-input[type=email]{
-	font-family: Century Gothic;
-	width: 25%;
-	margin: 10px;
-	padding: 5px;
-	background-color: gray;
-	border-radius: 5px;
-	color: white;
-	border: none;
-}
-
 #password{
 	margin-top: 10px;
-	border: none;
 }
 
+label {
+	color: white;
+    font-family: Century Gothic;
+}
 
