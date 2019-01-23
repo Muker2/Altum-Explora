@@ -74,26 +74,28 @@
 		<div class="Formular">
 			<form>
 				</br>
-				<input id="first name" type="text" name="first name" placeholder="First name" pattern="[A-Za-z]{0-20}" maxlength="20" required></input>
+				<input id="first name" type="text" name="first name" placeholder="First name" pattern="[A-Za-z]{0-20}" maxlength="20" autocomplete="off" required></input>
 				
-				<input id="last name" type="text" name="family name" placeholder="Family name" pattern="[A-Za-z]{0-20}" maxlength="20" required></input></br>
+				<input id="last name" type="text" name="family name" placeholder="Family name" pattern="[A-Za-z]{0-20}" maxlength="20" autocomplete="off" required></input></br>
 
 				</br>
-				<input id="street" type="text" name="street" placeholder="Street" pattern="[A-Za-z]{0-20}" maxlength="20" required ></input>
-				<input id="number" type="text" name="number" placeholder="Number" pattern="[0-9]{0-20}" required></input></br>
-				<input id="city" type="text" name="city" placeholder="City" pattern="[A-Za-z]{0-20}" maxlength="20" required></input>
-				<input id="zip code" type="text" name="zip code"placeholder="Zip Code" pattern="[0-9]{0-20}" required></input></br>
+				<input id="street" type="text" name="street" placeholder="Street" pattern="[A-Za-z]{0-20}" maxlength="20" autocomplete="off" required ></input>
+				<input id="number" type="text" name="number" placeholder="Number" pattern="[0-9]{0-20}" autocomplete="off" required></input></br>
+				<input id="city" type="text" name="city" placeholder="City" pattern="[A-Za-z]{0-20}" maxlength="20" autocomplete="off" required></input>
+				<input id="zip code" type="text" name="zip code"placeholder="Zip Code" pattern="[0-9]{0-20}" autocomplete="off" required></input></br>
 			
 				</br>
-				<input id="email" type="text" name="e-mail" placeholder="E-Mail" pattern="[A-Za-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required></input></br>
+				<input id="email" type="text" name="e-mail" placeholder="E-Mail" pattern="[A-Za-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" autocomplete="off" required></input></br>
 				</br>
 				<input id="password" type="password" name="password" width="30px" placeholder="Password" pattern="[A-Za-z0-9]{0-20}" required></input></br>
 				<input id="terms" type="checkbox" name="terms and conditions" value="term" required><label for="checkbox">I accept the terms and conditions</label></input></br>
-				<input id="submit" type="submit" name="submission" value="REGISTER"></input>
+				<input id="submit" type="submit" name="submission" value="REGISTER" onclick="document.getElementById('emailsendung').style.visibility='visible'"></input>
+				<a href="" id="emailsendung">An mail has been sent to your email adress</a></br>
+				
 			</form>
 			</div>
 		<div class="footer">
-			HOME / FAQ / HELP / IMPRINT
+			<a href="Startseite.html">HOME</a> / FAQ / HELP / IMPRINT
 			</div>
 		</body>
 </html> 

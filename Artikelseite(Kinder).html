@@ -4,9 +4,8 @@
 	<meta charset="UTF-8">
 	<title>Altum Explora </title>
 	<link rel="stylesheet" type="text/css" href="background.css"/>
-	<link rel="stylesheet" type="text/css" href="Artikelseite.css"/>
-	<style>
-	</style>
+	<link rel="stylesheet" type="text/css" href="Artikelseite.css"/> 
+	<link rel="stylesheet" type="text/css" href="Shop.css"/>
 	</head>
 		<body>
 			<div class="navigation">
@@ -67,12 +66,17 @@
 			<div id="greyline">
 			</div>
 		</div>
+		
+		<div id="Kategorienbildkind">
+		</div>
 
 		<div class="Artikel">
 				<img src="Bilder/Kinder.png" width="50%" height="100%"></img>
 			<div class="Beschreibung">
-				<h2>WAS GEHT</h2>
-				<input id="shopping" type="submit" name="submission" value="ADD TO CART"></input>
+				<h2>NAME</h2>
+				<h3>Preis</h3>
+				<input id="shopping" type="submit" name="submission" onclick="document.getElementById('popup').style.visibility='visible'" value="ADD TO CART"></input>
+				<div id="popup">Added to cart</div>
 				</div>
 				
 				<div class="selection">
@@ -93,7 +97,7 @@
 		</div>	
 		
 		<div class="footer">
-			HOME / FAQ / HELP / IMPRINT
+			<a href="Startseite.html">HOME</a> / FAQ / HELP / IMPRINT
 			</div>
 		</body>
 </html> 

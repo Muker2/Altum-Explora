@@ -1,6 +1,6 @@
 .Artikel{
 	position: relative;
-	width: 75%;
+	width: 66.66%;
 	height: 100%;
 	margin-top: 100px;
 	margin-left: auto;
@@ -19,6 +19,7 @@
 	background-color: black;
 	color: white;
 	border-radius: 5px;
+	font-family: Century Gothic;
 }
 	
 
@@ -70,3 +71,22 @@ p{
 	top: 50%;
 	right: 30%;
 }
+
+#popup{
+	visibility: hidden;
+	position: absolute;
+	bottom: 0px;
+	width: 30%;
+	margin-left: 35%;
+	margin-right: 35%;
+}
+
+
+
+.Beschreibung h3{
+	position: absolute;
+	width: 10%;
+	margin-top: 75%;
+	left: 75%;
+}
+

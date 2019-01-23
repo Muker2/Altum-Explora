@@ -208,6 +208,17 @@ h1 {
     background-position: 50% 50%;
 }
 
+#titelbild h1{
+	color: white;
+	position: absolute;
+	width: 40%;
+	top: 75%;
+	left: 10%;
+	background-color: #00524f;
+	background-image: linear-gradient(to right, #00524f,#a3cccc );
+	text-align: center;
+}
+
 .text{
 	position: absolute;
 	padding: 50px;
@@ -389,17 +400,359 @@ h1{
 	float: left;
 	height: 10px;
 	display: block;
-	width: 100%;
-	margin-left: auto;
-	margin-right: auto;
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
 	color: white;
 	font-family: Century Gothic;
 	text-align: center;
 	vertical-align: middle;
 	line-height: 40px;
 	margin-top: 10%;
+	bottom: 0px;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+}
+
+.Kategorie{
+	position: relative;
+	width: 75%;
+	height: 25%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+#Kategorienbild {
+	position: relative;
+	z-index: -1;
+	width: 100%;
+    height: 300px;
+    background-image: url("Bilder/StrandMen.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+#Kategorienbildfrau {
+	position: relative;
+	z-index: -1;
+	width: 100%;
+    height: 300px;
+    background-image: url("Bilder/Damenkategorie.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+#Kategorienbildkind {
+	position: relative;
+	z-index: -1;
+	width: 100%;
+    height: 300px;
+    background-image: url("Bilder/Kinderkategorie.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 40%;
+}
+
+#Kategorienbildsale {
+	position: relative;
+	z-index: -1;
+	width: 100%;
+    height: 300px;
+    background-image: url("Bilder/Sale.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.wetsuit{
+	position: relative;
+	float: left;
+	text-align: center;
+	width: 25%;
+	height: 30%;
+	margin-top:2%;
+	opacity: 0.5;
+}
+
+.wetsuit:hover{
+	opacity: 1;
+}
+
+
+.Name{
+	position: relative;
+	bottom: 0px;
+	height: 50px;
+	background-image: linear-gradient(to top, rgba(0,82,79,0),rgba(9,82,79,1));
+	border: 2px solid white;
+	text-align: center;
+	width: 75%;
+	margin: auto;
+	color: white;
+	font-family: Century Gothic;
+}
+
+.Kategorietext{
+	margin-top: 20px;
+	width: 50%;
+	left: auto;
+	right: auto;
+	background-image: linear-gradient(to top, rgba(0,82,79,0),rgba(9,82,79,1));
+	text-align: center;
+	z-index: 4;
+	text-shadow: 0 0 20px rgba(255,255,255,0.3);
+	font-family: Gill Sans MT Condensed;
+	font-size: 60px;
+	text-decoration: none;
+	display:block;
+    -webkit-transform:scale(0.7,1); /* Safari and Chrome */
+    -moz-transform:scale(0.7,1); /* Firefox */
+    -ms-transform:scale(0.7,1); /* IE 9 */
+    -o-transform:scale(0.7,1); /* Opera */
+    transform:scale(0.7,1); /* W3C */
+	}
+
+	
+p{
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 100px;
+	color: white;
+	font-family: Century Gothic;
+}
+
+.Kategorienauswahl{
+	position: relative;
+	width: 980px;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 4;
+}
+
+.kategorienauswahl{
+	height: 50%;
+	filter: blur(5px);
+}
+
+.kategorienauswahl1{
+	display: inline-block;
+	height: 50%;
+	width: 33%;
+	filter: blur(5px);
+}
+
+.kategorienauswahl2{
+	display: inline-block;
+	text-align: center;
+	height: 50%;
+	width: 33%;
+	filter: blur(5px);
+}
+
+.kategorienauswahl3{
+	display: inline-block;
+	text-align: center;
+	height: 50%;
+	width: 33%;
+	filter: blur(5px);
+}
+
+.Beschriftung{
+	position: absolute;
+	text-align: center;
+	font-size: 100px;
+	left: 33%;
+	right: 33%;
+	top: 33%;
+	font-family: Gill Sans MT Condensed;
+	color: white;
+}
+
+.Beschriftung1{
+	position: relative;
+	font-size: 60px;
+	color: white;
+	bottom: 140px;
+	text-align: center;
+	font-family: Gill Sans MT Condensed;
+}
+
+.Beschriftung2{
+	position: relative;
+	font-size: 60px;
+	color: white;
+	bottom: 140px;
+	text-align: center;
+	font-family: Gill Sans MT Condensed;
+}
+
+.Beschriftung3{
+	position: relative;
+	font-size: 60px;
+	color: white;
+	bottom: 140px;
+	text-align: center;
+	font-family: Gill Sans MT Condensed;
+}
+
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+}
+
+.kategorienauswahl:hover, .kategorienauswahl1:hover, .kategorienauswahl2:hover, .kategorienauswahl3:hover{
+	filter: blur(0px);
+}
+
+.Artikel{
+	position: relative;
+	width: 66.66%;
+	height: 100%;
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	animation-name: fadein;
+	animation-duration: 2s;
+}
+
+.Beschreibung {
+	display: inline-block;
+	position: absolute;
+	float: left;
+	height: 100%;
+	width: 40%;
+	text-align: center;
+	background-image: linear-gradient(to top, rgba(0,82,79,0),rgba(9,82,79,1));
+	color: white;
+	border-radius: 5px;
+	font-family: Century Gothic;
+}
 	
 
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+#shopping{
+	position: relative;
+	float: left;
+	height: 10%;
+	width: 75%;
+	top: 70%;
+	margin-left: 12.5%;
+	margin-right: auto;
+	border: none;
+	border-radius: 5px;
+	background-color: rgb(33,139,125);
+	color: white;
+}
+
+.selection{
+	position: absolute;
+	width: 70%;
+	left: 55%;
+	bottom: 20%;
+}
+
+.selection select{
+	background-color: rgb(33,139,125);
+	color: white;
+	padding: 10px;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	appearance: none;
+	border: none;
+	border-radius: 5px;
+	width: 8%;
+}
+
+select:after{
+	background-color:white;
+}
+
+
+p{
+	position: relative;
+	top: 50%;
+	right: 30%;
+}
+
+#popup{
+	visibility: hidden;
+	position: absolute;
+	width: 30%;
+	margin-left: 35%;
+	margin-right: 35%;
+}
+
+#emailsendung{
+	visibility: hidden;
+	position: absolute;
+	font-family: Century Gothic;
+	color: white;
+	margin-top: 25%;
+	width: 50%;
+	left: 25%;
+	right: 25%;
+}
+
+
+
+.Beschreibung h3{
+	position: absolute;
+	width: 10%;
+	margin-top: 75%;
+	left: 75%;
+}
+
+.Loginformular{
+	position: absolute;
+	display: block;
+	width: 75%;
+	height: 200px;
+	top: 10%;
+	border-radius: 5px;
+	z-index: 2;
+}
+
+#loginemail{
+	position: absolute;
+	text-align: center;
+	left: 10%;
+}
+
+#loginpassword{
+	position: absolute;
+	left: 10%;
+	text-align: center;
+	margin-top: 20px;
+}
+
+#login{
+	position: absolute;
+	left: 10%;
+	margin-top: 25%;
 }
 
 

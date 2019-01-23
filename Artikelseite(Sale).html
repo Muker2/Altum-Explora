@@ -4,10 +4,10 @@
 	<meta charset="UTF-8">
 	<title>Altum Explora </title>
 	<link rel="stylesheet" type="text/css" href="background.css"/>
-	<link rel="stylesheet" type="text/css" href="Shop.css"/>
+	<link rel="stylesheet" type="text/css" href="Artikelseite.css"/>
 	</head>
 		<body>
-			<div class="navigation">
+		<div class="navigation">
 			<div id="tiltedquad">
 				<div id="tiltedquad2">
 				</div>
@@ -55,7 +55,7 @@
 				</div>
 				
 				<div id="warenkorb">
-					<a id="warenkorblink" href="Login.html">
+					<a id="warenkorblink" href="Registrierung.html">
 					<p id="warenkorblinktext">CART</p>
 					</a>
 				</div>
@@ -64,36 +64,39 @@
 			</div>
 			<div id="greyline">
 			</div>
-			
 		</div>
 		
-			<div class="Kategorienauswahl">
-				<div class="kategorienauswahl">
-					<a href="Kategorie(Sale).html"><img src="Bilder/Sale.jpg" width="100%"></a>
-					<div class="Beschriftung"><a href="Kategorie(Sale).html">SALE</a></div>
+		<div id="Kategorienbildsale">
+		</div>
+
+		<div class="Artikel">
+				<img src="Bilder/Sale.png" width="50%" height="100%"></img>
+			<div class="Beschreibung">
+				<h2>NAME</h2>
+				<h3>Preis</h3>
+				<input id="shopping" type="submit" name="submission" onclick="document.getElementById('emailsending').style.visibility='visible'" value="ADD TO CART"></input>
+				<div id="popup">Added to cart</div>
 				</div>
-	
-			<div class="kategorienauswahl1">
-				<a href="Kategorie(Mann).html"><img src="Bilder/StrandMen.jpg" width="100%"></a>
-					<div class="Beschriftung1"><a href="Kategorie(Mann).html">MEN</a></div>
-			</div>
-		
-			<div class="kategorienauswahl2">
-				<a href="Kategorie(Frau).html"><img src="Bilder/Damenkategorie.jpg" width="100%"></a>
-				<div class="Beschriftung2"><a href="Kategorie(Frau).html">WOMEN</a></div>
 				
-			</div>
-			
-			<div class="kategorienauswahl3">
-				<a href="Kategorie(Kind).html"><img src="Bilder/Kinderkategorie.jpg" width="100%"></a>
-				<div class="Beschriftung3"><a href="Kategorie(Kind).html">CHILDREN</a></div>
-			</div>
-		</div> 
+				<div class="selection">
+				<select class="Size">
+					<option value="S">S</option>
+					<option value="M">M</option>
+					<option value="L">L</option>
+					<option value="XL">XL</option>
+				</select>
+				
+				<select class="Quantity">
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+				</select>
+				</div>
+		</div>
 		
-			
-			<div class="footer">
+		<div class="footer">
 			<a href="Startseite.html">HOME</a> / FAQ / HELP / IMPRINT
 			</div>
-			
 		</body>
-<html>
+</html> 
