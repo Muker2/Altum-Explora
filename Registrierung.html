@@ -3,8 +3,8 @@
 	<head>
 	<meta charset="UTF-8">
 	<title>Altum Explora </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="stylesheet" type="text/css" href="background.css"/>
-	<link rel="stylesheet" type="text/css" href="Registrierung.css"/>
 	<style>
 	</style>
 	</head>
@@ -72,7 +72,7 @@
 		</div>
 		
 		<div class="Formular">
-			<form>
+			<form action="Registrierbestätigung.html">
 				</br>
 				<input id="first name" type="text" name="first name" placeholder="First name" pattern="[A-Za-z]{0-20}" maxlength="20" autocomplete="off" required></input>
 				
@@ -89,8 +89,7 @@
 				</br>
 				<input id="password" type="password" name="password" width="30px" placeholder="Password" pattern="[A-Za-z0-9]{0-20}" required></input></br>
 				<input id="terms" type="checkbox" name="terms and conditions" value="term" required><label for="checkbox">I accept the terms and conditions</label></input></br>
-				<input id="submit" type="submit" name="submission" value="REGISTER" onclick="document.getElementById('emailsendung').style.visibility='visible'"></input>
-				<a href="" id="emailsendung">An mail has been sent to your email adress</a></br>
+				<input id="submit" type="submit" name="submission" value="REGISTER" onclick="window.location.href='Registrierbestätigung.html'"></input>
 				
 			</form>
 			</div>

@@ -215,7 +215,6 @@ h1 {
 	top: 75%;
 	left: 10%;
 	background-color: #00524f;
-	background-image: linear-gradient(to right, #00524f,#a3cccc );
 	text-align: center;
 }
 
@@ -496,7 +495,7 @@ a:visited {
 	position: relative;
 	bottom: 0px;
 	height: 50px;
-	background-image: linear-gradient(to top, rgba(0,82,79,0),rgba(9,82,79,1));
+	background-color: black;
 	border: 2px solid white;
 	text-align: center;
 	width: 75%;
@@ -510,7 +509,7 @@ a:visited {
 	width: 50%;
 	left: auto;
 	right: auto;
-	background-image: linear-gradient(to top, rgba(0,82,79,0),rgba(9,82,79,1));
+	background-color: black;
 	text-align: center;
 	z-index: 4;
 	text-shadow: 0 0 20px rgba(255,255,255,0.3);
@@ -539,7 +538,7 @@ p{
 	width: 980px;
 	margin-left: auto;
 	margin-right: auto;
-	z-index: 4;
+	z-index: 1;
 }
 
 .kategorienauswahl{
@@ -642,7 +641,7 @@ a:visited {
 	height: 100%;
 	width: 40%;
 	text-align: center;
-	background-image: linear-gradient(to top, rgba(0,82,79,0),rgba(9,82,79,1));
+	background-color: black;
 	color: white;
 	border-radius: 5px;
 	font-family: Century Gothic;
@@ -754,6 +753,131 @@ p{
 	left: 10%;
 	margin-top: 25%;
 }
+
+.Formular{
+	margin-top: 100px;
+}
+
+::placeholder{
+	color:white;
+}
+
+form{
+	position: absolute;
+	display: block;
+	width: 25%;
+	height: 500px;
+	background-color: rgba(0, 0, 0, 0.7);
+	top: 250px;
+	text-align: center;
+	margin-left: 37.5%;
+	margin-right: 37.5%;
+	border-radius: 5px;
+	z-index: 2;
+}
+
+.Login{
+	position: absolute;
+	display: block;
+	width: 25%;
+	height: 300px;
+	background-color: rgba(0, 0, 0, 0.7);
+	top: 250px;
+	text-align: center;
+	margin-left: 37.5%;
+	margin-right: 37.5%;
+	border-radius: 5px;
+	z-index: 2;
+}
+
+#submit{
+	background-color: #eb5c00;
+	border: none;
+	height: 50px;
+	width: 200px;
+	margin-top:30px;
+	margin-bottom: 30px;
+	border-radius: 10px;
+}
+
+
+#Registrierbild {
+	position: relative;
+	z-index: 2;
+	width: 100%;
+    height: 700px;
+    background-image: url("Bilder/Strand.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+input[type=text] {
+	font-family: Century Gothic;
+	width: 100px;
+	margin: auto;
+	padding: 5px;
+	margin-top: 20px;
+	background-color: gray;
+	border-radius: 5px;
+	color: white;
+	border: none;
+}
+
+input[type=checkbox]{
+	margin-top: 20px;
+	font-family: Century Gothic;
+	border-radius: 50px;
+}
+
+input[type=password]{
+	font-family: Century Gothic;
+	width: 25%;
+	margin: 10px;
+	padding: 5px;
+	background-color: gray;
+	border-radius: 5px;
+	color: white;
+	border: none;
+}
+
+#password{
+	margin-top: 10px;
+}
+
+label {
+	color: white;
+    font-family: Century Gothic;
+}
+
+#forgot{
+	font-family: Century Gothic;
+	color: white;
+}
+
+#account{
+	position: relative;
+	font-family: Century Gothic;
+	color: white;
+	margin-top:10px;
+}
+
+.Registrierbestätigung{
+	position: absolute;
+	text-align: center; 
+	width: 25%;
+	line-height: 30px;
+	height: 100px;
+	top: 250px;
+	z-index: 2;
+	border-radius: 5px;
+	background-color: rgba(0,0,0,0.7);
+	left: 37.5%;
+	right: 37.5%;
+	color: white;
+	font-family: Century Gothic;
+}
+
 
 
 
