@@ -41,21 +41,11 @@
     background-position: 50% 40%;
 }
 
-
-.Products{
-	margin-left: auto;
-	margin-right: auto;
-	width: 980px;
-	margin-top: 50px;
-	border: none;
-	z-index: 7;
-}
-
 .wetsuit{
 	position: relative;
 	float: left;
 	text-align: center;
-	width: 33.33%;
+	width: 25%;
 	height: 30%;
 	margin-top:2%;
 	opacity: 0.5;
