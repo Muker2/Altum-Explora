@@ -408,7 +408,6 @@ h1{
 	vertical-align: middle;
 	line-height: 40px;
 	margin-top: 10%;
-	bottom: 0px;
 }
 
 a:link {
@@ -703,6 +702,7 @@ p{
 	width: 30%;
 	margin-left: 35%;
 	margin-right: 35%;
+	bottom: 0px;
 }
 
 #emailsendung{
@@ -862,7 +862,7 @@ label {
 	margin-top:10px;
 }
 
-.Registrierbest√§tigung{
+.Registrierbest‰tigung{
 	position: absolute;
 	text-align: center; 
 	width: 25%;

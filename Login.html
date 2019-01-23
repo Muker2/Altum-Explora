@@ -2,8 +2,17 @@
 <html>
 	<head>
 	<meta charset="UTF-8">
-	<title>Altum Explora </title>
 	<link rel="stylesheet" type="text/css" href="background.css"/>
+	<title>Altum Explora </title>
+	<script>
+	function storedata(){
+	var savedEmail = document.getElementById("email");
+	localStorage.setItem("email", savedEmail.value);
+	
+	var savedPassword = document.getElementById("password");
+	localStorage.setItem("password", savedPassword.value);
+	}
+	</script>
 	</head>
 		<body>
 		<div class="navigation">
@@ -70,11 +79,11 @@
 		
 		<div class="Login">
 				</br>
-				<input id="email" type="text" name="e-mail" placeholder="E-Mail" pattern="[A-Za-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" autocomplete="off" required></input></br>
+				<input id="email" type="text" name="Email" placeholder="E-Mail" pattern="[A-Za-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required></input></br>
 				</br>
-				<input id="password" type="password" name="password" placeholder="Password" pattern="[A-Za-z0-9]{0-20}" autocomplete="off" required></input></br>
+				<input id="password" type="password" name="Password" placeholder="Password" pattern="[A-Za-z0-9]{0-20}" required></input></br>
 				<a href="" id="forgot">Forgot password?</a></br>
-				<input id="submit" type="submit" name="submission" value="LOGIN" onclick="window.location.href='Startseite.html'"></input><br>
+				<input id="submit" type="submit" name="submission" value="LOGIN" onclick="storedata()"></input><br>
 				<a href="Registrierung.html" id="account">CREATE ACCOUNT</a></br>
 			</div>
 			
